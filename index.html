@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <div id="weather-info">
-      <form id="submit-form" action="submit">
-        <input
-          id="input-text"
-          type="text"
-          name="city"
-          placeholder="Населенный пункт..."
-        />
-        <button type="click" id="btn" name="city">отправить</button>
-      </form>
-      <p class="name"></p>
-      <p class="weather"></p>
-      <p class="temp"></p>
-      <p class="temp-feel"></p>
-    </div>
+    <container class="container"
+      ><div class="weather-info">
+        <form id="submit-form" action="submit">
+          <img src="./weather_icons/geo_icon.png" alt="geo_icon" />
+          <input
+            id="input-text"
+            type="text"
+            name="city"
+            placeholder="Населенный пункт..."
+          />
+          <button type="click" id="btn" name="city">отправить</button>
+        </form>
+        <p class="name"></p>
+        <p class="weather"></p>
+        <p class="temp"></p>
+        <p class="temp-feel"></p></div
+    ></container>
+
     <script src="script.js"></script>
   </body>
 </html>
