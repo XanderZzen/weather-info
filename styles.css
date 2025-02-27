@@ -1,13 +1,57 @@
 @font-face {
-  font-family: 'roboto';
+  font-family: "roboto";
   src: url(./fonts/Roboto-Light.ttf);
 }
 
+:root {
+  --primary-color: #c7c7c7;
+}
+
 body {
-  font-family: 'roboto';
+  font-family: "roboto";
+  color: var(--primary-color);
 }
 
 .container {
   display: flex;
   justify-content: center;
+}
+
+#submit-form {
+  display: flex;
+}
+
+input::placeholder {
+  color: var(--primary-color);
+}
+
+#input-text {
+  font-family: inherit;
+  color: #c7c7c7;
+  height: 40px;
+  width: 321px;
+  font-size: 24px;
+  border-style: solid;
+  border-color: var(--primary-color);
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+#btn {
+  border: none;
+}
+
+img {
+  width: 40px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: light;
+  text-align: center;
+}
+
+.temp {
+  font-size: 85px;
+  text-align: center;
 }
