@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "roboto";
+  font-family: 'roboto';
   src: url(./fonts/Roboto-Light.ttf);
 }
 
@@ -8,13 +8,23 @@
 }
 
 body {
-  font-family: "roboto";
+  font-family: 'roboto';
   color: var(--primary-color);
+  background-color: rgb(42, 42, 65);
 }
 
 .container {
   display: flex;
   justify-content: center;
+}
+
+.weather-info {
+  max-width: 401px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #submit-form {
@@ -54,4 +64,13 @@ img {
 .temp {
   font-size: 85px;
   text-align: center;
+}
+
+.condit-img {
+  height: 136px;
+  width: 136px;
+}
+
+.weather {
+  font-size: 30px;
 }
