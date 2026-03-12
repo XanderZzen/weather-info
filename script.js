@@ -1,4 +1,4 @@
-const apiKey = 'fdf7f0f8e946c54b36d201ff70f19477';
+const apiKey = '';
 btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
